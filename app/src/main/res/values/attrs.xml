@@ -1,0 +1,40 @@
+<resources>
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="bottomButtonBarStyle" format="reference" />
+        <attr name="bottomButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="customTypeFace" format="enum">
+        <enum name="lato_black" value="1" />
+        <enum name="lato_regular" value="2" />
+        <enum name="lato_bold" value="3" />
+        <enum name="lato_light" value="4" />
+    </attr>
+
+    <declare-styleable name="GitHubTextView">
+        <attr name="customTypeFace" />
+    </declare-styleable>
+
+    <declare-styleable name="GitHubEditText">
+        <attr name="customTypeFace" />
+    </declare-styleable>
+
+    <declare-styleable name="GitHubButton">
+        <attr name="customTypeFace" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomSheetDialog">
+        <attr name="bsd_inDuration" format="reference|integer"/>
+        <attr name="bsd_inInterpolator" format="reference"/>
+        <attr name="bsd_outDuration" format="reference|integer"/>
+        <attr name="bsd_outInterpolator" format="reference"/>
+        <attr name="bsd_cancelable" format="reference|boolean"/>
+        <attr name="bsd_canceledOnTouchOutside" format="reference|boolean"/>
+        <attr name="bsd_dimAmount" format="reference|float"/>
+        <attr name="android:layout_height" />
+    </declare-styleable>
+</resources>

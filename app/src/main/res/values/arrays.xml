@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="weights">
+        <item>Kg</item>
+        <item>Gm</item>
+        <item>Liter</item>
+    </array>
+    <!--'Canceled','Confirmed','Completed','Dispatched','Ordered'-->
+    <array name="Status">
+        <item>Ordered</item>
+        <item>Confirmed</item>
+        <item>Dispatched</item>
+        <item>Completed</item>
+        <item>Canceled</item>
+    </array>
+    <array name="MOP">
+        <item>Cash</item>
+        <item>NEFT</item>
+        <item>Online</item>
+        <item>Card Swipe</item>
+    </array>
+</resources>

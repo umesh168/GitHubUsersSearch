@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GitHub Search</string>
+    <string name="server_url">https://api.github.com/</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="ok">OK</string>
+    <string name="sort_by">Sort By</string>
+    <string name="client_secret">9babf4631fc13c6b399aa30b3a92a354a21de2ef</string>
+    <string name="client_id">b593e57dbcf85503b425</string>
+    <string name="name_a_to_z">Name (A - Z)</string>
+    <string name="name_z_to_a">Name (Z - A)</string>
+    <string name="result_for">Search Results for </string>
+    <string name="search_hint">Search by keyword</string>
+</resources>

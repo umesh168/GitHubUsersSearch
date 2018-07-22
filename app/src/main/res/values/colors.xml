@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4d6eb5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="linkColor">#4d6eb5</color>
+    <color name="line_color">#e0e0e0</color>
+    <color name="cardColor">#f8f8f8</color>
+    <color name="git_gray">#9c9c9c</color>
+    <color name="list_bg">#f6f6f6</color>
+
+    <color name="black87">#DE000000</color>
+    <color name="black54">#8A000000</color>
+    <color name="black12">#1F000000</color>
+</resources>

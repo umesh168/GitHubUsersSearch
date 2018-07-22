@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <com.umesh.github.app.githubsearch.views.GitHubTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/sort_by"
+        android:textColor="@color/git_gray"
+        android:textSize="@dimen/text_size_medium"
+        app:customTypeFace="lato_regular"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp">
+
+        <com.umesh.github.app.githubsearch.views.GitHubTextView
+            android:id="@+id/sort_a_to_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="0dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/name_a_to_z"
+            android:layout_marginEnd="24dp"
+            android:paddingTop="@dimen/padding"
+            android:textSize="@dimen/text_size_medium"
+            app:customTypeFace="lato_regular"/>
+
+        <com.umesh.github.app.githubsearch.views.GitHubTextView
+            android:id="@+id/sort_z_to_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="0dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/name_z_to_a"
+            android:layout_marginEnd="24dp"
+            android:paddingTop="@dimen/padding"
+            android:textSize="@dimen/text_size_medium"
+            app:customTypeFace="lato_regular"/>
+
+        <com.umesh.github.app.githubsearch.views.GitHubTextView
+            android:id="@+id/rank_descending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="Rank"
+            android:drawableRight="@drawable/ic_arrow_up"
+            android:paddingTop="@dimen/padding"
+            android:textSize="@dimen/text_size_medium"
+            app:customTypeFace="lato_regular"/>
+
+        <com.umesh.github.app.githubsearch.views.GitHubTextView
+            android:id="@+id/rank_ascending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="Rank"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:paddingTop="@dimen/padding"
+            android:textSize="@dimen/text_size_medium"
+            app:customTypeFace="lato_regular"/>
+    </LinearLayout>
+</LinearLayout>
